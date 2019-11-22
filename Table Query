@@ -1,0 +1,22 @@
+CREATE TABLE Users (
+useremail varchar2(20),
+userpassword varchar2(20),
+usermobile number,
+userbalance number
+)
+
+CREATE TABLE ADMIN (
+adminusername varchar2(20),
+adminpassword varchar2(20)
+)
+
+
+CREATE TABLE BUS(
+busid number PRIMARY KEY,
+bustype varchar2(4),
+bussource varchar2(15),
+busdestination varchar2(15),
+busfare number,
+busseats number,
+busdate date
+);
