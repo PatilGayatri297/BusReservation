@@ -1,5 +1,5 @@
 CREATE TABLE Users (
-useremail varchar2(20),
+useremail varchar2(20) PRIMARY KEY,
 userpassword varchar2(20),
 usermobile number,
 userbalance number
@@ -20,3 +20,5 @@ busfare number,
 busseats number,
 busdate date
 );
+
+
