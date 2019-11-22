@@ -3,9 +3,10 @@ CREATE
 CREATE TABLE Users (
 useremail varchar2(20) PRIMARY KEY,
 userpassword varchar2(20),
-usermobile number,
+usermobile number unique,
 userbalance number
 )
+
 
 CREATE TABLE ADMIN (
 adminusername varchar2(20),
