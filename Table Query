@@ -1,3 +1,5 @@
+CREATE
+
 CREATE TABLE Users (
 useremail varchar2(20) PRIMARY KEY,
 userpassword varchar2(20),
@@ -20,5 +22,9 @@ busfare number,
 busseats number,
 busdate date
 );
+
+INSERT
+
+Insert into Admin values('admin','admin')
 
 
